@@ -1,0 +1,26 @@
+# Core Frameworks
+aiogram==3.7.0
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# APIs & HTTP
+requests==2.32.3
+aiohttp==3.9.5  # For async requests to GitHub/APIs
+
+# Google Services
+google-api-python-client==2.141.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+gspread==6.0.0 # Simpler GSheets client
+gspread-asyncio==2.0.0 # Async wrapper for gspread
+
+# Caching
+aioredis==2.0.1
+
+# Security & Config
+cryptography==42.0.8
+python-dotenv==1.0.1
+
+# Utility
+feedparser==6.0.11 # For RSS feeds
+# Note: No heavy AI libraries as requested
